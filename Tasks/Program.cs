@@ -12,11 +12,8 @@ int.TryParse(Console.ReadLine()!, out N);
 
 while (i <= N)
 {
-    if (i % 2 == 0)
-    {
-        Console.Write($"{i} ");
-    }
+    Console.Write($"{i} ");
     i+=2;
-}
+    }
 
 
